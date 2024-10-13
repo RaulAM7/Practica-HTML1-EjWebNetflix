@@ -1,0 +1,40 @@
+body, html {
+    margin: auto;
+    background-color: rgb(230, 228, 228);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#topnav {
+    height: 50px;
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+
+    background-color: black;
+
+}
+
+#topnav a {
+    color: white;
+    font-size: large;
+    padding: 8%;
+}
+
+#content-h1 {
+    font-size: xxx-large;
+}
+
+
+#imagen-portada {
+    opacity: 0.8;
+}
+
+#imagen-portada:hover {
+    opacity: 1.5;
+}
+
+#imagen-portada:active {
+    opacity: 2;
+}
